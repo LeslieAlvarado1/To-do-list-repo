@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #aae6ff;
 }
 
 nav {
-    background-color: #333;
+    background-color: #424141;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -26,7 +26,7 @@ form {
     width: 300px;
     margin: 2em auto;
     padding: 1em;
-    background-color: #fff;
+    background-color: #ddd;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -54,4 +54,35 @@ form button {
 #response-message {
     text-align: center;
     margin-top: 1em;
+}
+
+.todo-id {
+    position: absolute;
+    left: -40px;
+    width: 30px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+table {
+    width: 80%; /* Adjust as needed */
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table horizontally */
+    border: 2px solid #000; /* Solid outer border */
+    background-color: #ddd;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Inner cell borders */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#cancel-edit {
+    margin-top: 10px; /* Add margin to create space between buttons */
+    padding: 15px;
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit TODO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="new-todo.html">Add New TODO</a>
+        <a href="edit-todo.html">Edit TODO</a>
+    </nav>
+    <h1>Edit TODO</h1>
+    <form id="edit-todo-form">
+        <label for="todo-id">TODO ID:</label>
+        <input type="number" id="todo-id" required>
+        <button type="button" id="fetch-todo">Fetch TODO</button>
+        <br><br>
+        <label for="edit-title">Title:</label>
+        <input type="text" id="edit-title" required>
+        <br><br>
+        <label for="edit-completed">Completed:</label>
+        <input type="checkbox" id="edit-completed">
+        <br><br>
+        <button type="submit">Update TODO</button>
+        <button type="button" id="cancel-edit">Cancel</button>
+        <p id="edit-response-message"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -10,9 +10,20 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="new-todo.html">Add New TODO</a>
+        <a href="edit-todo.html">Edit TODO</a>
     </nav>
     <h1>TODO List</h1>
-    <ul id="todo-list"></ul>
+    <table id="todo-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TODO items will be inserted here -->
+        </tbody>
+    </table>
 
     <script src="script.js"></script>
 </body>
